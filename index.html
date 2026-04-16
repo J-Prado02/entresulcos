@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>entresulcos</title>
     <link rel="icon" href="images/entresulcosfundoescuro.png">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Montserrat+Alternates:wght@400;700&display=swap&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <nav class="menu">
+        <nav class="menu" aria-label="Menu principal">
             <a href="/" class="logo">
-                <img src="images/entresulcosfundotexto.png" alt="logo">
+                <img src="images/entresulcosfundotexto.png" alt="entresulcos — página inicial">
             </a>
             <ul>
-                <li><a href="#Gênero">Gênero</a></li>
-                <li><a href="#Vitrolas">Vitrolas</a></li>
-                <li><a href="#Lotes">Lotes</a></li>
-                <li><a href="#Vale-Presente">Vale Presente</a></li>
-                <li><a href="#Lacrados">Lacrados</a></li>
-                <li><a href="#Importados">Importados</a></li>
-                <li><a href="#Acessórios">Acessórios</a></li>
+                <li><a href="#genero">Gênero</a></li>
+                <li><a href="#vitrolas">Vitrolas</a></li>
+                <li><a href="#lotes">Lotes</a></li>
+                <li><a href="#vale-presente">Vale Presente</a></li>
+                <li><a href="#lacrados">Lacrados</a></li>
+                <li><a href="#importados">Importados</a></li>
+                <li><a href="#acessorios">Acessórios</a></li>
             </ul>
+
+            <div class="kart-icon">
+                <a href="cesta.html" target="_blank" ><i class="fa-solid fa-basket-shopping"></i></a>
+            </div>
+
         </nav>
         <div class="hero">
             <div class="content">
                 <h1>entresulcos</h1>
                 <p>desde os Primórdios da Humanidade, a Música esteve Presente</p>
             </div>
-
-            <img src="images/output-onlinepngtools-com.png" alt="elemento visual">
+            <img src="images/output-onlinepngtools-com.png" alt="">
         </div>
     </header>
+
     <main class="main">
         <section class="about">
             <h2>Nossa História</h2>
@@ -42,76 +49,204 @@
                 que valoriza a conexão entre passado e presente. Cada faixa, cada vinil e cada detalhe aqui existe para resgatar sensações,
                 preservar histórias e transformar lembranças em experiências vivas.</p>
         </section>
-        <section class="sales">
+
+        <section class="sales" id="genero">
 
             <article class="card">
-        <img src="images/album/violeta.jpg" alt="album">
-        <h3>Violeta</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/violeta.jpg" alt="Capa do álbum Violeta – Terno Rei">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 89,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Violeta</div>
+                    <div class="card-artist">Terno Rei</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/gemeos.jpg" alt="album">
-                <h3>Gêmeos</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/gemeos.jpg" alt="Capa do álbum Gêmeos – Terno Rei">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 79,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Gêmeos</div>
+                    <div class="card-artist">Terno Rei</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/estrela.jpg" alt="album">
-                <h3>Até a última Estrela</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/estrela.jpg" alt="Capa do álbum Até a última Estrela – Terno Rei">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 84,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Até a última Estrela</div>
+                    <div class="card-artist">Terno Rei</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/lilas.jpg" alt="album">
-                <h3>Lilás</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/lilas.jpg" alt="Capa do álbum Lilás – Terno Rei">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 89,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Lilás</div>
+                    <div class="card-artist">Terno Rei</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/estereo.jpg" alt="album">
-                <h3>Estéreo</h3>
+                <span class="card-genre">Soul</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/estereo.jpg" alt="Capa do álbum Estéreo – Tim Maia">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 99,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Estéreo</div>
+                    <div class="card-artist">Tim Maia</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/dias.jpg" alt="album">
-                <h3>Dias da Juventude</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/dias.jpg" alt="Capa do álbum Dias da Juventude">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 74,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Dias da Juventude</div>
+                    <div class="card-artist">—</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/noel-rosa.jpg" alt="album">
-                <h3>Noel Rosa</h3>
+                <span class="card-genre">Samba</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/noel-rosa.jpg" alt="Capa do álbum Noel Rosa – Brazilian Samba Classics">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 109,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Brazilian Samba Classics</div>
+                    <div class="card-artist">Noel Rosa</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/racionais.jpg" alt="album">
-                <h3>Racionais</h3>
+                <span class="card-genre">Rap</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/racionais.jpg" alt="Capa do álbum Racionais MC's">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 119,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Racionais</div>
+                    <div class="card-artist">Racionais MC's</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/sabotage.jpg" alt="album">
-                <h3>Sabotage</h3>
+                <span class="card-genre">Rap</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/sabotage.jpg" alt="Capa do álbum Sabotage">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 114,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Sabotage</div>
+                    <div class="card-artist">Sabotage</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/dred.jpg" alt="album">
-                <h3>Dred</h3>
+                <span class="card-genre">Reggae</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/dred.jpg" alt="Capa do álbum Dred">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 94,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Dred</div>
+                    <div class="card-artist">—</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/alucinação.jfif" alt="album">
-                <h3>Alucinação</h3>
+                <span class="card-genre">MPB</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/alucinação.jfif" alt="Capa do álbum Alucinação – Belchior">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 104,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Alucinação</div>
+                    <div class="card-artist">Belchior</div>
+                </div>
             </article>
 
             <article class="card">
-                <img src="images/album/estereo.jpg" alt="album">
-                <h3>Estéreo</h3>
+                <span class="card-genre">Soul</span>
+                <div class="card-img-wrap">
+                    <img src="images/album/estereo.jpg" alt="Capa do álbum Estéreo – Tim Maia">
+                    <div class="card-overlay">
+                        <span class="card-overlay-price">R$ 99,90</span>
+                        <button class="card-btn">+ Carrinho</button>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Estéreo</div>
+                    <div class="card-artist">Tim Maia</div>
+                </div>
             </article>
 
         </section>
     </main>
+
     <footer class="footer">
-        <p>© 2026</p>
-        <div class="footer-image">
-            <img src="images/instagram_725339.png" alt="">
-            <img src="images/phone_1304167.png" alt="">
-            <img src="images/location_6320900.png" alt="">
+        <p>© 2026 entresulcos</p>
+        <div class="footer-links">
+            <a href="#" aria-label="Instagram">
+                <img src="images/instagram_725339.png" alt="Instagram">
+            </a>
+            <a href="#" aria-label="Telefone">
+                <img src="images/phone_1304167.png" alt="Telefone">
+            </a>
+            <a href="#" aria-label="Localização">
+                <img src="images/location_6320900.png" alt="Localização">
+            </a>
         </div>
     </footer>
 </body>
