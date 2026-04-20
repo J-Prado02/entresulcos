@@ -1,0 +1,90 @@
+[
+  {
+    "id": "terno-violeta",
+    "genero": "MPB",
+    "titulo": "Violeta",
+    "artista": "Terno Rei",
+    "preco": 89.90,
+    "imagem": "images/album/violeta.jpg"
+  },
+  {
+    "id": "terno-gemeos",
+    "genero": "MPB",
+    "titulo": "Gêmeos",
+    "artista": "Terno Rei",
+    "preco": 79.90,
+    "imagem": "images/album/gemeos.jpg"
+  },
+  {
+    "id": "terno-estrela",
+    "genero": "MPB",
+    "titulo": "Até a última Estrela",
+    "artista": "Terno Rei",
+    "preco": 84.90,
+    "imagem": "images/album/estrela.jpg"
+  },
+  {
+    "id": "terno-lilas",
+    "genero": "MPB",
+    "titulo": "Lilás",
+    "artista": "Terno Rei",
+    "preco": 89.90,
+    "imagem": "images/album/lilas.jpg"
+  },
+  {
+    "id": "tim-estereo",
+    "genero": "Soul",
+    "titulo": "Estéreo",
+    "artista": "Tim Maia",
+    "preco": 99.90,
+    "imagem": "images/album/estereo.jpg"
+  },
+  {
+    "id": "dias-juventude",
+    "genero": "MPB",
+    "titulo": "Dias da Juventude",
+    "artista": "Terno Rei",
+    "preco": 74.90,
+    "imagem": "images/album/dias.jpg"
+  },
+  {
+    "id": "noel-rosa",
+    "genero": "Samba",
+    "titulo": "Brazilian Samba Classics",
+    "artista": "Noel Rosa",
+    "preco": 109.90,
+    "imagem": "images/album/noel-rosa.jpg"
+  },
+  {
+    "id": "racionais",
+    "genero": "Rap",
+    "titulo": "Racionais",
+    "artista": "Racionais MC's",
+    "preco": 119.90,
+    "imagem": "images/album/racionais.jpg"
+  },
+  {
+    "id": "sabotage",
+    "genero": "Rap",
+    "titulo": "Sabotage",
+    "artista": "Sabotage",
+    "preco": 114.90,
+    "imagem": "images/album/sabotage.jpg"
+  },
+  {
+    "id": "dred",
+    "genero": "Reggae",
+    "titulo": "Dred",
+    "artista": "—",
+    "preco": 94.90,
+    "imagem": "images/album/dred.jpg"
+  },
+  {
+    "id": "belchior",
+    "genero": "MPB",
+    "titulo": "Alucinação",
+    "artista": "Belchior",
+    "preco": 104.90,
+    "imagem": "images/album/alucinação.jfif"
+  }
+]

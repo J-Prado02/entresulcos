@@ -27,7 +27,7 @@
             </ul>
 
             <div class="kart-icon">
-                <a href="cesta.html" target="_blank" ><i class="fa-solid fa-basket-shopping"></i></a>
+                <a href="#" id="cart-icon-link"><i class="fa-solid fa-basket-shopping"></i></a>
             </div>
 
         </nav>
@@ -40,200 +40,37 @@
         </div>
     </header>
 
-    <main class="main">
-        <section class="about">
-            <h2>Nossa História</h2>
-            <p>entresulcos nasce da ideia de que a música sempre foi parte essencial da experiência humana — 
-                desde os primeiros sons que marcaram o início da vida até as melodias que hoje carregam nossas memórias mais íntimas. 
-                Mais do que um catálogo, somos um espaço onde o tempo se traduz em som, reunindo estilos, épocas e emoções em uma curadoria
-                que valoriza a conexão entre passado e presente. Cada faixa, cada vinil e cada detalhe aqui existe para resgatar sensações,
-                preservar histórias e transformar lembranças em experiências vivas.</p>
-        </section>
+   <main class="main">
+    
+    <section id="cart" class="page hidden">
+        <div class="cart-container">
+            <button class="close-cart-btn" aria-label="Fechar Carrinho">&times;</button>
+            <h2 class="cart-title">Seu Carrinho</h2>
+            <div class="cart-items-list">
+                <!--Itens Serão inseriodos via JS-->
+            </div>
 
-        <section class="sales" id="genero">
+            <div class="cart-total">
+                <span>Total: </span>
+                <span class="total-price">R$ 0,00</span>
+            </div>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>
+    </section>
 
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/violeta.jpg" alt="Capa do álbum Violeta – Terno Rei">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 89,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Violeta</div>
-                    <div class="card-artist">Terno Rei</div>
-                </div>
-            </article>
+    <section class="about">
+        <h2>Nossa História</h2>
+        <p>entresulcos nasce da ideia de que a música sempre foi parte essencial da experiência humana — 
+            desde os primeiros sons que marcaram o início da vida até as melodias que hoje carregam nossas memórias mais íntimas. 
+            Mais do que um catálogo, somos um espaço onde o tempo se traduz em som, reunindo estilos, épocas e emoções em uma curadoria
+            que valoriza a conexão entre passado e presente. Cada faixa, cada vinil e cada detalhe aqui existe para resgatar sensações,
+            preservar histórias e transformar lembranças em experiências vivas.</p>
+    </section>
 
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/gemeos.jpg" alt="Capa do álbum Gêmeos – Terno Rei">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 79,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Gêmeos</div>
-                    <div class="card-artist">Terno Rei</div>
-                </div>
-            </article>
+    <section class="sales" id="genero">
+    </section>
 
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/estrela.jpg" alt="Capa do álbum Até a última Estrela – Terno Rei">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 84,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Até a última Estrela</div>
-                    <div class="card-artist">Terno Rei</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/lilas.jpg" alt="Capa do álbum Lilás – Terno Rei">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 89,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Lilás</div>
-                    <div class="card-artist">Terno Rei</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Soul</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/estereo.jpg" alt="Capa do álbum Estéreo – Tim Maia">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 99,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Estéreo</div>
-                    <div class="card-artist">Tim Maia</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/dias.jpg" alt="Capa do álbum Dias da Juventude">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 74,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Dias da Juventude</div>
-                    <div class="card-artist">—</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Samba</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/noel-rosa.jpg" alt="Capa do álbum Noel Rosa – Brazilian Samba Classics">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 109,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Brazilian Samba Classics</div>
-                    <div class="card-artist">Noel Rosa</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Rap</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/racionais.jpg" alt="Capa do álbum Racionais MC's">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 119,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Racionais</div>
-                    <div class="card-artist">Racionais MC's</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Rap</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/sabotage.jpg" alt="Capa do álbum Sabotage">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 114,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Sabotage</div>
-                    <div class="card-artist">Sabotage</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Reggae</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/dred.jpg" alt="Capa do álbum Dred">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 94,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Dred</div>
-                    <div class="card-artist">—</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">MPB</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/alucinação.jfif" alt="Capa do álbum Alucinação – Belchior">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 104,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Alucinação</div>
-                    <div class="card-artist">Belchior</div>
-                </div>
-            </article>
-
-            <article class="card">
-                <span class="card-genre">Soul</span>
-                <div class="card-img-wrap">
-                    <img src="images/album/estereo.jpg" alt="Capa do álbum Estéreo – Tim Maia">
-                    <div class="card-overlay">
-                        <span class="card-overlay-price">R$ 99,90</span>
-                        <button class="card-btn">+ Carrinho</button>
-                    </div>
-                </div>
-                <div class="card-info">
-                    <div class="card-title">Estéreo</div>
-                    <div class="card-artist">Tim Maia</div>
-                </div>
-            </article>
-
-        </section>
-    </main>
+</main>
 
     <footer class="footer">
         <p>© 2026 entresulcos</p>
