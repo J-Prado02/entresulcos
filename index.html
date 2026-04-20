@@ -26,6 +26,10 @@
                 <li><a href="#acessorios">Acessórios</a></li>
             </ul>
 
+             <div class="kart-icon">
+                <li><a href="#" id="login-menu-btn"><i class="fa-solid fa-user"></i> Conta</a></li>
+            </div>
+
             <div class="kart-icon">
                 <a href="#" id="cart-icon-link"><i class="fa-solid fa-basket-shopping"></i></a>
             </div>
@@ -57,6 +61,71 @@
             <button class="checkout-btn">Finalizar Compra</button>
         </div>
     </section>
+
+    <!-- Página de Login -->
+<section id="login-page" class="page hidden">
+  <div class="auth-container">
+    <button class="close-auth-btn">&times;</button>
+    <h2 class="auth-title">Entrar</h2>
+    <form id="login-form">
+      <div class="input-group">
+        <label for="login-email">E-mail</label>
+        <input type="email" id="login-email" required>
+      </div>
+      <div class="input-group">
+        <label for="login-password">Senha</label>
+        <input type="password" id="login-password" required>
+      </div>
+      <button type="submit" class="auth-btn">Entrar</button>
+      <p class="auth-switch">Não tem conta? <a href="#" id="show-signup">Cadastre-se</a></p>
+      <p id="login-error" class="auth-error"></p>
+    </form>
+  </div>
+</section>
+
+<!-- Página de Cadastro -->
+<section id="signup-page" class="page hidden">
+  <div class="auth-container">
+    <button class="close-auth-btn">&times;</button>
+    <h2 class="auth-title">Criar conta</h2>
+    <form id="signup-form">
+      <div class="input-group">
+        <label for="signup-name">Nome (opcional)</label>
+        <input type="text" id="signup-name">
+      </div>
+      <div class="input-group">
+        <label for="signup-email">E-mail</label>
+        <input type="email" id="signup-email" required>
+      </div>
+      <div class="input-group">
+        <label for="signup-password">Senha</label>
+        <input type="password" id="signup-password" required minlength="6">
+      </div>
+      <button type="submit" class="auth-btn">Cadastrar</button>
+      <p class="auth-switch">Já tem conta? <a href="#" id="show-login">Faça login</a></p>
+      <p id="signup-error" class="auth-error"></p>
+    </form>
+  </div>
+</section>
+
+<!-- Página de Confirmação de Compra -->
+<section id="checkout-success" class="page hidden">
+  <div class="success-container">
+    <button class="close-success-btn">&times;</button>
+    <div class="success-icon">✅</div>
+    <h2 class="success-title">Compra Finalizada!</h2>
+    <p class="success-message">Obrigado por comprar na <strong>entresulcos</strong>.</p>
+    <p class="success-message">Seu pedido foi registrado e em breve você receberá um e-mail com os detalhes.</p>
+    
+    <div class="order-summary">
+      <h3>Resumo do Pedido</h3>
+      <div class="order-items"></div>
+      <div class="order-total"></div>
+    </div>
+
+    <button class="continue-shopping-btn">Continuar Comprando</button>
+  </div>
+</section>
 
     <section class="about">
         <h2>Nossa História</h2>

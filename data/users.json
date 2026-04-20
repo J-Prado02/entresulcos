@@ -1,0 +1,12 @@
+[
+  {
+    "email": "admin@entresulcos.com",
+    "password": "admin123",
+    "name": "Administrador"
+  },
+  {
+    "email": "cliente@email.com",
+    "password": "123456",
+    "name": "Cliente Exemplo"
+  }
+]
